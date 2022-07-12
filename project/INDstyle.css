@@ -1,0 +1,183 @@
+body{
+	background-color: black
+}
+h1{
+	font-family: 'Courier New', monospace;
+	border-bottom: 1px solid;
+    border-top: 0px solid;
+    padding: 20px;
+    color: white;
+    font-weight: 800;
+    width: 30%;
+	border-color: light-gray;
+}
+h2{
+	padding: 0px;
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+h3{
+	color: white; 
+}
+p{
+	font-family: Helvetica, sans-serif;
+	color: white;
+	width: 80%;
+	padding: 0px;
+	text-indent: 10%;
+	text-align: center-right;
+	margin: 50px;
+}
+ul {
+	color: white;
+	font-family: Helvetica, sans-serif;	
+}
+.note{
+	font-family: Helvetica, sans-serif;
+	color: white;
+	font-size: 8px;
+}
+a{
+	color: cyan;
+	font-family: 'Courier New', monospace;
+	text-decoration: none;
+
+}
+#indus_logo {
+	background: url("https://i.ibb.co/PQSSGxP/I2103-TTTRPG-Invert.png")
+	background-repeat: no-repeat;
+	width: 640px;
+	height: 480px;
+}
+a:hover{
+	color: white;
+}
+.scream{
+	color: red;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 1px;
+	width: 60%;
+	padding: 0px;
+	text-indent: 40px;
+	text-align: center-right;
+	margin: 50px;
+}
+
+.container {
+	display: flex;  
+	flex-flow: row wrap;
+}
+.container > * { 
+	padding: 1px;
+	/* all items minimum size is 100% width */
+	flex: 1 100%;
+}
+
+
+.top {
+	text-align: center;
+	color: white;
+	font-family: 'Courier New', monospace;
+
+}
+.header-menu{
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: #171717;
+	flex-flow: space-between;
+	text-align: center;
+}
+.footer {
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: #171717;
+}
+.menu{
+	background:#404040;
+	color: white;
+	font-family: 'Courier New', monospace;
+	border: 1px solid #878787;
+	
+}
+.main {
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: #141414;
+	border: 0.5px solid cyan;
+	overflow-y: auto;
+	max-height: 650px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.far-left {
+
+	flex: 0.5;
+	flex-flow: row wrap;
+}
+.left{
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: #171717;
+	flex-flow: row wrap;
+	text-align: wrap;
+	flex: 1;
+	overflow-y: auto;
+}
+
+.right {
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: #171717;
+		flex-flow: row wrap;
+	text-align: wrap;
+	flex: 1;
+	overflow-y: auto;
+}
+.main input {
+	flex-flow: row wrap;
+	
+}
+@media all and (min-width: 1000px) {
+	.main	{ flex: 4 0px; 
+		min-width: 600px;
+
+	}
+	.main input {
+		min-width: 500px;
+		position: fixed;
+		bottom: 85px;
+	}
+	.enter button{
+		position:fixed;
+		bottom: 85px;
+		left: 900px;
+		
+		max-width: 50px;
+	}
+	.far-left {flex: 0.5 0px;
+	max-width: 100px;}
+	.far-left { order: 1; }
+	
+	.left 	{ order: 2; 
+	max-width: 250px;} 
+	.main	{ order: 3; }
+	.right	{ order: 4;
+max-width: 250px;	}
+	.footer	{ order: 5; }
+
+}
+@media all and (min-width: 400px) {
+	.beside { 
+
+
+		flex: 1 auto;
+	
+	}
+	.main {
+		flex: 1.5;
+	}
+}

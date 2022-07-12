@@ -1,0 +1,44 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="project.js"></script><title>settings page CSC130 project 1 V00977111
+</title>
+</head>
+<body onload="set_style()">
+<div id="settings-container">
+<div class="settings-header"><p><a href="./mainv2.html"> feed </a><a href="./profile.html"> profile </a></p></div>
+<div class="settings-sidebar"><p id="spacer">_</p>
+<a href="#theme">theme</a>
+<p id="spacer">_</p>
+<a href="#font">font</a>
+</div>
+<div class="settings-body"><h2>Settings menu</h2>
+<br>
+
+<h3>Change the site theme.</h3><br>
+<p id="theme"></p>
+<button class="button" onclick="toggle_style()">toggle dark / light style</button>
+<br>
+<p id="spacer">_</p>
+<button class="button" onclick="low_contrast()">low contrast mode</button>
+<br>
+<br>
+<h3>Select font size.</h3>
+<p id="font"></p>
+<input id="font-size-input" class="input" type="text" placeholder="12">
+<button class="button" onclick="set_font_size()">enter</button>
+<br>
+<!--
+<h3>Select font style.</h3>
+<input id="font-input" class="input" type="text" placeholder="Helvetica">
+<button class="button" onclick="set_font()">enter</button>
+<br>
+-->
+
+<p id="spacer">_</p>
+<p>Here is some sample text</p>
+
+</div>
+</div>
+</body>
+</html>

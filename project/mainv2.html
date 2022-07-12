@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="UTF8"></meta>
+<link rel="stylesheet" href="projectStyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script src="project.js"></script><title>main page CSC130 project 1 V00977111
+
+</title>
+</head>
+
+<body onload="set_style()">
+<div class="grid-container">
+  <div class="header">
+  <p><a href= "./project-plan.html"> about </a> <a href= "./settings.html"> settings </a> <a href= "./profile.html"> profile </a><p id="small-profile-picture"></p></p>
+</p>
+  </div>
+  <div class="topMenu">
+  <p><button onclick="loadFeed()" class="button">text feed</button><button onclick="loadResources()" class="button">resources</button><button onclick="loadAssignments()" class="button">assignments</button></p>
+  </div>
+  <div id="feed">
+	<p id="messages"></p>
+
+  <p id="posted-message">Welcome to the feed area.</p>
+  <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+  <p id="posted-message">you've reached the top of the feed. Nothing was posted before the date of this message.</p>
+  </div>  
+  <div class="sidebar">
+  <p><a href="https://www.google.com/">log out</a></p>
+  
+  <p></p>
+  </div>
+  
+
+<div class="message"><p>upload content</p>
+<textarea id="message_input" cols="50" rows="5"class="input" type="text" placeholder="enter message"></textarea>
+
+
+<input type="file" id="fileInput" placeholder="upload file" name="uploadedFile">
+<button onclick="message()" class="submit-message button">submit</button>
+</div>
+</div>
+
+</body>
+</html>

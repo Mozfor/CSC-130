@@ -1,0 +1,60 @@
+<html><head><link href="calcStyle.css" type="text/css" rel="stylesheet"></head><body>
+<div id="calcMain">
+<div id="header"><a href="./project-plan.html">about</a>
+</div>
+<div id="display">
+<p>display</p>
+</div>
+
+<div class="numPad">
+<div class="zero"><button onclick="input()" id="zero">0</button></div>
+<div class="point"><button onclick="input()" id="point">.</button></div>
+<div class="pi"><button onclick="input()" id="pi">π</button></div>
+<div class="one"><button onclick="input()" id="one">1</button></div>
+<div class="two"><button onclick="input()" id="two">2</button></div>
+<div class="three"><button onclick="input()"id="three">3</button></div>
+<div class="four"><button onclick="input()"id="four">4</button></div>
+<div class="five"><button onclick="input()"id="five">5</button></div>
+<div class="six"><button onclick="input()"id="six">6</button></div>
+<div class="seven"><button onclick="input()"id="seven">7</button></div>
+<div class="eight"><button onclick="input()"id="eight">8</button></div>
+<div class="nine"><button onclick="input()" id="nine">9</button></div>
+</div>
+
+<div class="symbols">
+<div class="div1"><button onclick="operate()"id="add">+</button></div>
+<div class="div2"><button onclick="operate()"id="subtract">-</button></div>
+<div class="div3"><button onclick="operate()"id="multiply">*</button></div>
+<div class="div4"><button onclick="operate()" id="divide">/</button></div>
+<div class="div5"><button onclick="operate()"id="mod">%</button></div>
+<div class="div6"><button onclick="operate()"id="exponent">^</button></div>
+<div class="div7"><div class="bracketOpen"><button onclick="operate()"id="open">(</button></div><div id="bracketClose"><button onclick="operate()"id="close">)</button></div><div class="enterButton"><button onclick="enter()"id="enter">=</button></div></div>
+</div>
+</div>
+
+<div class="settings">
+
+<div class="colors">
+
+<div class="background-color"><input type="color" value="#000000" id="backgroundColorPicker">background</div>
+<div class="text-color"><input type="color" value="#ffffff" id="textColorPicker">UI</div>
+<div class="button-color"><input type="color" value="#00FFFF" id="hightlightColorPicker">highlight</div>
+<div class="color-invert"><button onclick="invertColors()"id="colorInvert">Invert theme colors</div>
+</div>
+
+<div class="font">
+
+<div id="fontIncreaser"><button class="button" onclick="increaseFontSize()">bigger font</button></div>
+<div id="fontReducer"><button class="button" onclick="decreaseFontSize()">smaller font</button></div>
+</div>
+
+<div class="apply"><button class="button" onclick="saveStyling()">save</button></div>
+
+</div>
+<div class="presetLoading">
+<input type="text" class="nameInput"id="nameInput"placeholder="input preset name">
+<button onclick="loadPreset()"class="loadPreset"id="loadPreset">load</button>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><link href="projectStyle.css" type="text/css" rel="stylesheet"></head><body>
+  <div class="content">
+    <h1>CSC130 Project 2: Scientific Calculator</h1>
+    <h2>general outline</h2>
+	<p>My new idea is to build a scientific calculator that uses Javascript to run calculations behind an HTML/CSS interface.</p>
+	<p>The main idea is 2D, but as with my previous project, a 3d interface may be much more intuitive for a user.</p>
+	<p>I expect this app to be able to run calculations at a level equivalent to a SHARP EL-510R, the official calculator of UVIC's math department.</p>
+	<p>This idea is important because students need easily accessible calculators.</p>
+	<p>I do not have plans for true XR for this project, however I believe that audio-visual feedback could be a fun addition to the app.</p>
+	<ul>
+	<li>Calculators do not need to be in XR, they work fine on a screen.</li>
+	<li>However, XR interfaces are inherently much more intuitive than 2D interfaces.</li>
+	<li>XR apps offer larger 'desktop' space, which may be beneficial for complex math.</li>
+	</ul>
+	<ul>
+	<li>3D interfaces can be easily implemented if the calculator is already designed to tackle 3D graphing.</li>
+	<li></li>
+	<li></li>
+	</ul>
+
+	<p>9: auditing your idea</p>
+	<p>My idea exists in 2D. It is a simplistic app by nature.</p>
+	<p>My idea does not exist in 3D. Such an interface design would likely be unnecessary for a calculator.</p>
+	<p>A 3d calculator interface would allow graphing on more than 2 dimensions.</p>
+	<br>
+	<p>10: useful design principles</p>
+	<p>Useful: This calculator should posess a full range of functionality up to and possibly including graphing.</p>
+	<p>Usable: Every feature will be clearly accessible on one page.</p>
+	<p>Desirable: The main desirable trait of this app is the modularity of its interface.</p>
+	<p>Accessible: The color and font size of the interface can be adjusted to acommodate for visually impaired users.</p>
+	<br>
+	<p>11: empathy map</p>
+	<p>Says: is this really necessary? I like the modularity.</p>
+	<p>Thinks: the styling options and audio feedback are pretty neat.</p>
+	<p>Feels: accomodated for when selecting a styling that matches their colorblindness.</p>
+	<p>Does: spends a lot of time making their own preferred color scheme.</p>
+	
+	<br>
+	<p>JSON object mock-up: color scheme preset</p>
+	<ul><li>name (string): the name of the preset. Must be unique.</li>
+	<li>backgroundColor (sRGB): RGB value for the preset's background color.</li>
+	<li>borderColor (sRGB): RGB value for the preset's border color.</li>
+	<li>highlightColor (sRGB): RGB value for the preset's highlighted element color.</li></ul>
+</body></html>

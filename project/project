@@ -1,0 +1,4 @@
+function message(){
+	let message = document.getElementById("main_input").value;
+	alert("this did something. you wrote: "+message);
+}

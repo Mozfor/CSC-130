@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="projectStyle.css">
+</script><script src="project.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script></script><title>settings page CSC130 project 1 V00977111
+</title>
+</head>
+<body>
+<div id="profile-container">
+<div class="profile-header"><p><a href="./mainv2.html"> home </a><a href="./settings.html"> settings </a></p></div>
+<div class="profile-sidebar"><p><a href="https://www.google.com/">log out</a></p><br><p><a href="https://www.google.com/">delete profile</a></p>
+<br>
+</div>
+<div id="profile-body">
+<div id="profile-picture"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFsAiAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQMEBgcCAf/EADoQAAIBAwIEAwYFAgQHAAAAAAECAwAEERIhBTFBURMikQZhcYHB8AcyQqGxFFIzctHhFSMkJkOy8f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACARAAICAgMBAQEBAAAAAAAAAAABAhEDIRIxUUEiBBP/2gAMAwEAAhEDEQA/AO40UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFeXdUGXYKO5OKVcQ4ykJdLfSzpszn8oPb30gm4lPPP8A9S/LOkAbe/H+tZSzRWkaxwyatmlueM2NuxR51LDmFPL41Ul9oIdQCGIA8i0m5GO1YyW9tzLpjVndjgLJnLMffjHKprGeF53h0vqByzhwVwOeNqyeWT6NY4Yrs0U3E5LjJjlJA6KR9KhbjksUYy7q3Z0P1qgk0TPhJnUD9Wkj7+NVryXAPnXOOch6/LNTykXwi/g3j47I6s6XOkjmGXIqccS4hr1mUiIjn4YrJQTrGGUIdbDYOcg/MCobW4ubaWSSB8Bh506Mfd7+dUnL0ThHw18vHL0KTA0UhBwc4GKrn2suIY/+asJcnABBB/Y0hmmS/XVC8kF0m4BI5bb599eZJpEPgXcWstsrg9+/0NDlJfRqEfDaWPtNbzoDOqqT1ikEgHxxyptDfW02PDnQ56ZxXLHuINPhrH4cnPHTbrkU44bN4kUumV1VU2BHLf8A3qllkRLBE6IKKw9nc8QgRXDnRvlk2Bx1xyrTcI4mL9GDRNHIp5N+odxWsZpmMsbiMqKKKszCoLyXwLWWXIGhC2Ty2FT0p9prgQ8KkUMoaXyjPbr+1TJ1FsqKtpHPuIXtxIvhWkihVcatIwSe3+WqVw0rWyI0upnGXK7YJ6A/SmaW0KsJNP5sZyNgDy2719ltIfCjURgZU6SNunauBbPQejOm9Sx84iMjyDQulth7yep9BU8N/dPbyySgxpB4cixR/mcB8MD22PTsalk4fbjxVlZypPuwDkch1PLnVDicy21uzW66XlcrGxGGGByPfmO/WrsmixJ/UTyhJJ5FP6NJPlyM8qYWl34EGmWaNl0ga2OSN+/r+1KLCQBTcqmUmj1BEH5G5Nj96uwB0QllRAV8oUZDZ3z8B9naqW2Lot3cEqBm8TWBukinmfrsfdXsW4Mwmhn1xyqCVAHlOnPI8vl7+1L7O8kjUpKA0G+4IyM9u45VamMKRrIkviHUsgKNh0O4B93wPcVSBotJpVpEkhImU/mC42zVe8V9ckYJPIJ5jkDI/wBK9RTTT2yO2HdM5UP+9QvKUnXVGyS5LB1wQe+D15+lQ3stLR6ieK4cSODE5/uGxNN7JCkLGQBnOyyYAOO3L4bUscwa1uWzGC+l2U56ZyVA3G1N9cK2UaoyaZNwQcjcDcU0iZMntyfA3GqM5UAdPvemHsnI4vnikVc6MAjsMcvX9qVQytGkqImUUYLb5Y75PpV/gb/093FPI6kl/CLDqMc/vtVp7RlJflmzooorpOQKx3tPI03FFUMSsahFQHqdyfTHpWvkdY0LucKoyTWIkkjub1pxzDHA7kn/AOetc39EvzR0fzrbYquLe5n0xxxlVByS5xk9OWa83MNxbwQRSyrrCtkhsbbdKv3dyIrpUTLFPM4XkBjl8aWT3hluhIIo0OkZ82cb8vjsKwijok7EvFRcl0hVmxu2MYz2patm7jxZ2WNT01A5+NaO5MM8ZTAZtX+Ifvrmo5LRBavcyZ0qcDrkbA4q2wTM9YtMsskYbETjYEZxtv8AfuprEZzC0YbAI1KzHdgMtj47ZqN7ZZZkdGUbjbrjG9MLlo440R9fh/oGnr3pRY5FR1EmGUtgsQhx9elQXCYe4nQbtpHbDZB9NiamiQP5EYEgZOk7H3GoZnd3cIutVcOo552A3/aqAkiJhEszSAIoBLAg4NeBftK0h1eExOQMDcYx/FepHWWxgULpdjlttjjbf1qjcRyswlkwBnboR9/WgY4hWO+V1Q+Zm1DUNicf78+2av8AChLDM8EpcAYIOMhgefxpDYymBm8JNQBON/2xT+OYSokrjH+VSCDzp3RLQ2WVH/qECYkVF8x7A/zRbjxEBUadLHKg5z95r4JPKVD4CAZwAc996itpRHCqmUav7S24GedMije8PnFxaRvyOMMPfRSr2WuhcLdBSDpk6en0oroi7VnJNVKi7x5pE4VO0SkkDJ0jJx1rC2ErwQtOP/INQRvlj6866URmkF5wO3glee1dYFc5dGiLrn3AEY+VY5sbltG2HIoqmYy5vY4IGZSI3fcqBk52OTtzx/IqojxxsJb3ESkeTxD5mPU6fSqfHnj4XfTvHcRSJK+pigJPP+0j4isxe8aguLvx2d2K7DI+nSsVFrs6W4vpm3F2JHItpIsDm5Q7+tfbuI3jJrbyrguSCMkDtWTtfaq1hRGlLllP6EUbfP8Amvk3t1bKjwxasyHngs/3y6dKdMVxX0cFG1NM6FY0OCmoEkdD6jfHepOJSKbgxRsXUqAMnYY9/wB5qnBxAvEYhPgumk6mCk7bavdn751JKwa2UJk4/MwAwPcPdR0UlZBctPoChAjDdnGx9KitpmeSNiADn9K46Y3FMIDFd2SF9n1EE42x60NZIUaVcB+QOBsc0J+g6+FiVWaOF1w4GoDB5jbf1J9KryBCjhV/Kp8uNs47/KvsspVFgmjHl1aJMZOe2O1eiWaF5dAYhSD/AHAfD0+xQFlSMyRJqOksmdj1+/rTSweKSKUoNOMHQRn0zSYEPJlDpddyNxkdPjV9AEXxSdZIJOnyn40MPhobcLc6I7dJDISBhdwT29KYx+y/Ep3LMIrbLZJLaj+1WfYKyEFmb6ZHEk2ya+env861wkU1vHGmtnLPM06Qr4BwRODpJid5XlxqLbAYzyHzr7TUHNFapVpGDbbtn2vhGedfaKYijecI4ffKVu7KCUHnrQGs3xD8MvZS+JL8NEbHrE5WtlRRQ7Zy+7/BTgEmf6a5u4T2L6hSa5/A3BJtOJoewkQ12milQcmcFf8ABLi0f+DdWZ7bkfSi2/Cb2tsWc2N9FDrGH8O4IDD3jr8671RRQ+TOHR/hj7b6DH/xqKNDz0zYPbmFzUjfhL7WTBfG9pcaV0hTK5UDtjlXbaKOKDkzj1p+GPtfb5/7os5Af0z2xk/mmK/h/wC05JM3G+FNqAVsWTgkD4MO1dQoo4rwfOXpzaD8PeMx8+MWWerC1cn/AN9qf8M9j1tdDXlyly6flAgCKB08o2PxOTWqopcIh/pL0rR2oUY1Ej4VMsaryr3RVEBRRRQB/9k="alt="profile picture"width="200"height="200"></div>
+<div id="profile-options">
+<h3>Upload new profile picture</h3>
+<input type="file" id="fileInput" placeholder="upload file" name="uploadedFile">
+<button onclick="message()" class="button">submit</button>
+<br>
+<h3>Edit profile description</h3>
+<textarea id="profile-description" name="profile description" rows="6" cols="50">
+I am the default user. My profile picture is a rock.
+</textarea>
+<button onclick="submitDescription()"class="button">submit</button>
+</div>
+<p id="current-description">I am the default user. My profile picture is a rock.</p>
+</div>
+</div>
+</body>
+</html>
