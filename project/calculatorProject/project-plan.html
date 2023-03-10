@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><link href="calcStyle.css" type="text/css" rel="stylesheet"></head><body>
+  <div class="content">
+    <h1>CSC130 Project 2: Scientific Calculator</h1>
+    <h2>general outline</h2>
+	<a href="./calcMain.html"><b>Implimentation!</b></a>
+	<p>1. My new idea is to build a scientific calculator that uses Javascript to run calculations behind an HTML/CSS interface.</p>
+	<p>2. The main idea is 2D, but as with my previous project, a 3d interface may be much more intuitive for a user.</p>
+	<p>3. I expect this app to be able to run calculations at a level equivalent to a SHARP EL-510R, the official calculator of UVIC's math department.</p>
+	<p>4. This idea is important because calculators are very important tools and everyone needs access to them.</p>
+	<p>5. I do not have plans for true XR for this project, however I believe that audio-visual feedback could be a fun addition to the app.</p>
+	<ul>6.
+	<li>Calculators do not need to be in XR, they work fine on a screen.</li>
+	<li>However, XR interfaces are inherently much more intuitive than 2D interfaces.</li>
+	<li>XR apps offer larger 'desktop' space, which may be beneficial for complex math.</li>
+	</ul>
+	<ul>7.
+	<li>3D interfaces can be easily implemented if the calculator is already designed to tackle 3D graphing.</li>
+	<li>Calculators are simplisic, single-window interfaces and do not require 3d.</li>
+	<li>a 3d interface for a simple app may feel intimidating.</li>
+	</ul>
+	<p>8. in what ways are AR, MR, and VR useful for the project?</p> <p>AR provides immersive interfaces that interact with a real-world environment. This is unnecessary as a calculator is a self-contained app.</p><p>MR provides a virtual interface that is overlayed in the real world. This can have the same effect as adding another monitor to a desktop setup, and is always handy.</p><p>VR places the user in an entirely virtual interface. This is rather unnecessary for something as benign as a calculator.</p>
+<br>
+	<p><b>9: auditing your idea</b></p>
+	<p>Does my idea exist in 2D? Yes, my idea exists in 2D. It is a simplistic app by nature.</p>
+	<p>Does my idea exist in 3D? No, my idea does not exist in 3D. Such an interface design would likely be unnecessary for a calculator.</p>
+	<p>An advantage of a 3d interface is that a 3d calculator interface would work well with graphing on more than 2 dimensions, however this app is intended to be accessible rather than advanced.</p>
+	<br>
+	<p><b>10: useful design principles</b></p>
+	<p>Useful: This calculator should posess a full range of functionality up to and possibly including graphing.</p>
+	<p>Usable: Every feature will be clearly accessible on one page.</p>
+	<p>Desirable: The main desirable trait of this app is the modularity of its interface.</p>
+	<p>Valuable: visually impaired users need accessible interfaces.</p>
+	<p>Findable: it will be marketed as an "accessible and modular interface" to indicate its purpose and attract users who need such a feature.</p>
+	<p>Accessible: The color and font size of the interface can be adjusted to acommodate for visually impaired users.</p>
+	<br>
+	<p><b>11: empathy map</b></p>
+	<p>When using my app, the user...</p>
+	<p>Thinks/feels: Acommodated for. They feel like this was designed to accomodate for them, because they are visually impaired and can adjust color and size to fit their needs.</p>
+	<p>Does/says: enjoys the modularity of the interface, spends some time making their own preferred color scheme.</p>
+	<p>Hears: text-to-speech of the button they are hovering their cursor over.</p>
+	<p>Sees: an aesthetically pleasing UI.</p>
+	<p>Pains: setting up a particular UI could require some work.</p>
+	<p>Gains: the ability to perform calculations with a UI that suits their needs/wants.</p>
+	
+	<br>
+	<p><b>JSON object mock-up: color scheme preset</b></p>
+	<ul><li>name (string): the name of the preset. Must be unique.</li>
+	<li>date (string): the date of the preset's creation in YYYY-MM-DD format.</li>
+	<li>backgroundColor (RGBa): RGB value for the preset's background color.</li>
+	<li>borderColor (RGBa): RGB value for the preset's border color.</li>
+	<li>highlightColor (RGBa): RGB value for the preset's highlighted element color.</li></ul>
+	<p>As an example, a completed object will look like this:</p>
+	<p>{"name":"White theme","date":"2022-07-12","backgroundColor":"rgba(255,255,255,1)","borderColor":"rgba(0,0,0,0)","highlightColor":"rgba(0,0,255,1)"}</p>
+	<p>This preset is called White theme. It was created on 2022-07-12. It sets the background color to white, the border and text color to black, and the highlight color to blue.</p>
+	<p>(highlight here refers to the color of links and buttons.)</p>
+	<table>
+  <tr>
+    <td>key</td>
+    <td>value</td>
+
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>White theme</td>
+
+  </tr>
+    <tr>
+    <td>date</td>
+    <td>2022-07-12</td>
+
+  </tr>
+    <tr>
+    <td>background</td>
+    <td id="demoBackground"></td>
+
+  </tr>
+    </tr>
+    <tr>
+    <td>border</td>
+    <td id="demoBorder"></td>
+
+  </tr>
+    </tr>
+    <tr>
+    <td>highlight</td>
+    <td id="demoHighlight"></td>
+
+  </tr>
+</table>
+	<br>
+	<p>HTML with this color scheme looks like this:</p>
+	<div id="demoArea">
+	<p>this is sample text with a border around it.</p>
+	<a href="./calcMain.html">this is a sample link.</a>
+	</div>
+	
+	<br>
+	
+	<p><b>Wireframe!</b></p>
+	<img src="Project 2 wireframe.png">
+	<br>
+	<a href="./calcMain.html"><b>Implimentation!</b></a>
+
+</body></html>

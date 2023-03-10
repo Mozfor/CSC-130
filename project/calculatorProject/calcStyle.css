@@ -1,0 +1,257 @@
+
+html{
+	height: 100%;
+	
+}
+
+
+body{
+	background-color: black;
+	color:white;
+	font-family: helvetica;
+}
+input{
+	color: white;
+}
+table{
+	border: 1px solid white;
+}
+td{
+	border: var(--border-color);
+}
+p{
+	color: white;
+	font-family: helvetica;
+}
+input{
+	background-color: transparent;
+	border: 2px solid white;
+
+}
+#calcMain{
+	display: grid;
+	grid-template-areas: 
+
+	'display display display display'
+	'numPad numPad symbols symbols';
+	min-height: 70%;
+}
+#header{
+	grid-area: header;
+	color: white;
+}
+#display{
+	border: 1px solid white;
+	grid-area: display;
+	text-indent: 0%;
+	text-align: right;
+	padding: 1%;
+	color: cyan;
+	font-family: courier new;
+	font-size: 200%;
+	overflow-x: auto;
+
+}
+#display p{
+	color: cyan;
+	font-family: courier new;
+	font-size: 200%;
+	padding: 0%;
+}
+
+.numPad {
+	grid-area:numPad;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+	border: 1px solid white;
+	justify-self: stretch;
+}
+
+.zero { grid-area: 4 / 1 / 5 / 2; }
+.point { grid-area: 4 / 2 / 5 / 3; }
+.pi {grid-area: 4 / 3 / 5 / 4;}
+.one { grid-area: 3 / 1 / 4 / 2; }
+.two { grid-area: 3 / 2 / 4 / 3; justify-self: stretch; align-self: stretch;display: block;}
+.three { grid-area: 3 / 3 / 4 / 4; justify-self: stretch; align-self: stretch;display: block;}
+.four { grid-area: 2 / 1 / 3 / 2; justify-self: stretch; align-self: stretch;display: block;}
+.five { grid-area: 2 / 2 / 3 / 3; justify-self: stretch; align-self: stretch; display: block;}
+.six { grid-area: 2 / 3 / 3 / 4; justify-self: stretch; align-self: stretch; display: block;}
+.seven { grid-area: 1 / 1 / 2 / 2; justify-self: stretch; align-self: stretch; display: block;}
+.eight { grid-area: 1 / 2 / 2 / 3; justify-self: stretch; align-self: stretch; display: block; }
+.nine { grid-area: 1 / 3 / 2 / 4; justify-self: stretch; align-self: stretch; display: block;}
+.numPad button {
+	font-size: 150%;
+}
+button{
+	transition: 0.1s;
+	color: cyan;
+	background-color: rgba(225, 225, 225, 0);
+	border: 1px solid white;
+	padding: 2%;
+	justify-self: stretch;
+	display: block;
+	align-self: stretch;
+	width: 100%;
+	height: 100%;
+	font-family: courier new;
+}
+
+button:focus, button:hover{
+	border: 1px dashed cyan;
+	color: white;
+	font-weight: 1000;
+	background-color: rgba(225, 225, 225, 0.1);
+}
+button:active{
+	border: 0px;
+	color: cyan;
+	font-weight: 100;
+	background-color: rgba(225,225,225,0);
+}
+
+
+.symbols {
+	transition: 0.1s;
+	border: 1px solid white;
+	grid-area:symbols;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+.symbols button{
+	font-size: 150%;
+}
+.div1 { grid-area: 6 / 1 / 7 / 2; }
+.div2 { grid-area: 5 / 1 / 6 / 2; }
+.div3 { grid-area: 4 / 1 / 5 / 2; }
+.div4 { grid-area: 3 / 1 / 4 / 2; }
+.div5 { grid-area: 2 / 1 / 3 / 2; }
+.div6 { grid-area: 1 / 1 / 2 / 2; }
+.div7 { grid-area: 1 / 2 / 7 / 3; 
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 2px;
+grid-row-gap: 2px;
+}
+.bracketOpen { grid-area: 1 / 1 / 2 / 2; }
+.bracketClose { grid-area: 1 / 2 / 2 / 3; }
+.enterButton { grid-area: 2 / 1 / 3 / 3; }
+
+.settings{
+	transition: 0.2s;
+	border: 1px solid white;
+	padding: 2%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+	padding: 2%;
+}
+.colors { grid-area: 1 / 1 / 3 / 2; 
+	transition: 0.2s;	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	text-indent: 10%;
+}
+
+.color-invert { grid-area:  4 / 1 / 5 / 2;
+}
+.background-color { grid-area: 1 / 1 / 2 / 2;
+
+}
+
+.text-color { grid-area: 2 / 1 / 3 / 2 ;}
+.button-color { grid-area: 3 / 1 / 4 / 2 ;}
+
+
+.font { grid-area: 1 / 2 / 2 / 3; 
+	display: grid;
+}
+.fontIncreaser { grid-area: 1 / 1 / 2 / 2; }
+.fontReducer { grid-area: 1 / 2 / 2 / 3; }
+
+.apply { grid-area: 2 / 2 / 3 / 3; }
+
+a {
+	color: cyan;
+	font-family: courier new;
+}
+a:focus, a:hover{
+	color: lime;
+}
+input {
+	border: 0px solid black;
+}
+
+.brackets button{
+	max-height: 20%;
+	max-width: 50%;
+}
+
+
+.presetLoading {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 2px;
+grid-row-gap: 2px;
+padding: 2px;
+}
+
+.nameInput { grid-area: 1 / 1 / 2 / 4; 
+border: 1px solid white;}
+.loadPreset { grid-area: 1 / 4 / 2 / 5; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#demoBackground{
+	background-color: rgba(255,255,255,1);
+}
+
+#demoBorder{
+	background-color: rgba(0,0,0,0);
+}
+
+#demoHighlight{
+	background-color: rgba(0,0,255,1);
+}
+#demoArea{
+	background-color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+	max-width: 50%;
+	padding: 1%;
+	
+}
+
+#demoArea p{
+	color: black;
+	border: 1px solid black;
+}
+#demoArea a{
+	color: rgba(0,0,255,1);
+}
+
+.clear{
+	min-width: 200%;
+}
+div{
+	transition: 0.2s;
+}

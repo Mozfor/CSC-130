@@ -1,0 +1,74 @@
+<html><head><title>customizable calculator</title><meta charset="UTF8"></meta><script src="calcJS.js"></script><link href="calcStyle.css" type="text/css" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script></head><body>
+<div id="everything">
+
+<div id="calcMain">
+
+
+
+
+
+<div id="display">
+
+</div>
+
+<div class="numPad">
+<div class="zero"><button onclick="input(0)" id="zero">0</button></div>
+<div class="point"><button onclick="input('.')" id="point">.</button></div>
+<div class="pi"><button onclick="input('3.141592653589793')" id="pi">π</button></div>
+<div class="one"><button onclick="input(1)" id="one">1</button></div>
+<div class="two"><button onclick="input(2)" id="two">2</button></div>
+<div class="three"><button onclick="input(3)"id="three">3</button></div>
+<div class="four"><button onclick="input(4)"id="four">4</button></div>
+<div class="five"><button onclick="input(5)"id="five">5</button></div>
+<div class="six"><button onclick="input(6)"id="six">6</button></div>
+<div class="seven"><button onclick="input(7)"id="seven">7</button></div>
+<div class="eight"><button onclick="input(8)"id="eight">8</button></div>
+<div class="nine"><button onclick="input(9)" id="nine">9</button></div>
+</div>
+
+<div class="symbols">
+<div class="div1"><button onclick="operate('+')"id="add">+</button></div>
+<div class="div2"><button onclick="operate('-')"id="subtract">-</button></div>
+<div class="div3"><button onclick="operate('*')"id="multiply">*</button></div>
+<div class="div4"><button onclick="operate('/')" id="divide">/</button></div>
+<div class="div5"><button onclick="operate('%')"id="mod">%</button></div>
+<div class="div6"><button onclick="operate('**')"id="exponent">^</button></div>
+<div class="div7">
+<div class="bracketOpen"><button onclick="operate('(')"id="open">(</button></div>
+<div id="bracketClose"><button onclick="operate(')')"id="close">)</button></div>
+<div class="enterButton"><button onclick="enter()"id="enter">=</button></div>
+<div class="clear"><button onclick="clearDisplay()"id="clear">C</button></div>
+</div>
+</div>
+</div>
+
+<div class="settings">
+
+<div class="colors">
+
+<div class="background-color"><input type="color" value="#000000" id="backgroundColorPicker">background</div>
+<div class="text-color"><input type="color" value="#ffffff" id="textColorPicker">border</div>
+<div class="button-color"><input type="color" value="#00FFFF" id="highlightColorPicker">text</div>
+<div class="color-invert"><button onclick="invertColors()"id="colorInvert">Invert theme colors</div>
+
+</div>
+
+<div class="font">
+
+<div id="fontIncreaser"><button class="button" onclick="increaseFontSize()">bigger font</button></div>
+<div id="fontReducer"><button class="button" onclick="decreaseFontSize()">smaller font</button></div>
+</div>
+
+<div class="apply"><button class="button" onclick="saveStyling()">save and apply</button></div>
+
+</div>
+<div class="presetLoading">
+<input type="text" class="nameInput"id="nameInput"placeholder="input preset name"value="">
+<button onclick="loadPreset()"class="loadPreset"id="loadPreset">load</button>
+
+</div>
+</div>
+<br>
+<a href="./project-plan.html">about</a>
+</body>
+</html>
